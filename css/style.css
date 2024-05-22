@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+button :hover {
+  cursor: col-resize;
+}
+#header {
+  padding: 35px 0;
+}
+.header {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  width: 790px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  font-size: 16px;
+}
+nav select {
+  border: none;
+  font-size: 16px;
+}
+.header-1 button {
+  margin-left: 5px;
+  color: #794cff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 169px;
+  height: 48px;
+  background-color: #ece5ff;
+}
+.header a {
+  color: #35414b;
+}
+span {
+  color: #794cff;
+}
+.header-1 {
+  display: flex;
+  align-items: center;
+}
+.img {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img h3 {
+  width: 93px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #81c43b;
+  color: #ffffff;
+  margin-right: -13px;
+  z-index: 1;
+}
+.img h4 {
+  color: #35414b;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f9eb;
+  width: 200px;
+  height: 30px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-weight: 400;
+}
+.info {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.info h1 {
+  width: 800px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 64px;
+}
+
+.info h4 {
+  width: 480px;
+  text-align: center;
+  color: #4e5a65;
+  font-size: 15px;
+  line-height: 25px;
+}
+.name {
+  margin: 25px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email {
+  width: 319px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: #ffffff71;
+  border: solid 0.01px #0000002d;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.name input::placeholder {
+  display: flex;
+  padding: 0 20px;
+}
+.try {
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  width: 169px;
+  height: 53px;
+  background-color: #794cff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.static img {
+  margin-left: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 700px;
+}
+.static h1 {
+  margin-top: 40px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.inet {
+  margin-bottom: 60px;
+  margin-top: 15px;
+  margin-left: 180px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  border-bottom: 3px solid #35414b;
+  padding-bottom: 30px;
+}
+.cli {
+  font-weight: 500;
+  font-family: sans-serif;
+  margin-left: 20px;
+  padding-left: 20px;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+  width: 360px;
+  height: 128px;
+  border-left: 7px solid #794cff;
+  margin-bottom: 5px;
+}
+.about {
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: start;
+  margin: 20px;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+  width: 360px;
+  height: 128px;
+  margin-bottom: 30px;
+}
+.make h1 {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  font-family: sans-serif;
+}
+.box {
+  width: 1500px;
+  height: 400px;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.texts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.works{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  text-align: start;
+}
+.works p{
+margin: 30px 0;
+font-family: sans-serif;
+}
+.works h1{
+  font-size: 43px;
+  font-family: sans-serif;
+}
+.works button{
+  width: 160px;
+  height: 45px;
+  border: none;
+  background-color: #796EFF;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
